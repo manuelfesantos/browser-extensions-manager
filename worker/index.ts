@@ -4,9 +4,9 @@ export default {
 
     if (url.pathname.startsWith("/api/")) {
       return Response.json({
-        name: "Cloudflare",
+        data: "1",
       });
     }
-		return new Response(null, { status: 404 });
+    return new Response(null, { status: 404 });
   },
 } satisfies ExportedHandler<Env>;

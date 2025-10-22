@@ -1,0 +1,26 @@
+.Header {
+    background-color: var(--foreground-color);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+}
+
+.Header-theme-btn {
+    width: 3rem;
+    aspect-ratio: 1/1;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--softer-color);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Header-theme-btn:hover {
+    background-color: var(--softer-hover-color);
+}

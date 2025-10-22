@@ -1,0 +1,42 @@
+.ExtensionsList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.ExtensionsList-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ExtensionsList-filters {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.ExtensionsList-filter {
+    padding-inline: 1rem;
+    background-color: var(--softer-color);
+}
+
+.ExtensionsList-filter:hover {
+    background-color: var(--softer-hover-color);
+}
+
+.ExtensionsList-filter.active {
+    background-color: var(--danger-color);
+    color: var(--foreground-color);
+    border: 1px solid var(--foreground-color);
+}
+
+.ExtensionsList-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}

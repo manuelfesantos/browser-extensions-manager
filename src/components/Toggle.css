@@ -1,0 +1,27 @@
+.Toggle {
+    width: 2rem;
+    height: 1rem;
+    border-radius: 0.5rem;
+    background-color: #C6C6C8;
+    position: relative;
+}
+
+.Toggle.active {
+    background-color: var(--danger-color);
+}
+
+.Toggle-btn {
+    width: 1rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: #FFFEFF;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    border: 1px solid #C6C6C8;
+}
+
+.Toggle-btn.active {
+    transform: translateX(100%);
+    border: 1px solid var(--danger-color);
+}

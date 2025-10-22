@@ -1,0 +1,36 @@
+.ExtensionComponent {
+    background-color: var(--foreground-color);
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 1px solid var(--hover-color);
+}
+
+.ExtensionComponent-content {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.ExtensionComponent-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ExtensionComponent-button {
+
+}
+
+.ExtensionComponent-button:hover {
+    background-color: var(--danger-color);
+    color: var(--foreground-color);
+    border: 1px solid var(--foreground-color);
+}
+
+.ExtensionComponent-toggle {
+
+}
