@@ -16,7 +16,7 @@ export const ExtensionsList = () => {
   return (
     <div className="ExtensionsList">
       <div className="ExtensionsList-header">
-        <h2>Extensions List</h2>
+        <h1>Extensions List</h1>
         <div className="ExtensionsList-filters">
           <ExtensionsListButton
             currentSelection={selection}

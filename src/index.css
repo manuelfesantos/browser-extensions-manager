@@ -51,6 +51,10 @@ h1,h2,h3,h4,h5,h6 {
     --softer-color: #EEEEEE;
     --softer-hover-color: #C6C6C4;
     --background: linear-gradient(180deg,rgba(235, 242, 252, 1) 0%, rgba(239, 251, 249, 1) 100%);
+    --mobile-screen: 375px;
+    --small-screen: 800px;
+    --medium-screen: 1100px;
+    --desktop-screen: 1440px;
 
 }
 

@@ -19,7 +19,12 @@ export const ExtensionComponent: React.FC<{ extension: Extension }> = ({
   return (
     <div className="ExtensionComponent">
       <div className="ExtensionComponent-content">
-        <img src={extension.logo} alt={`${extension.name} logo image`} />
+        <img
+          src={extension.logo}
+          alt={`${extension.name} logo image`}
+          height={70}
+          width={70}
+        />
         <div>
           <h3>{extension.name}</h3>
           <p>{extension.description}</p>

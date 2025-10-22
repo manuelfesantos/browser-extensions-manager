@@ -10,3 +10,16 @@
     padding-inline: 10rem;
     padding-block: 2rem;
 }
+
+@media (max-width: 1100px) {
+    .App {
+        padding-inline: 5rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .App {
+        padding-inline: 2rem;
+        gap: 2rem;
+    }
+}
